@@ -1,1 +1,0 @@
-Java web application in MVC with URLrewrite
