@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+/******menu*****************/
+#menu{
+	background:url(../image/head_right.jpg) repeat-x;
+	margin-top:-10px;
+	margin-left:-10px;
+	width:2000px;
+	position:fixed;
+	}
+#option{
+	margin-top:-30px;
+	margin-left:600px;
+	width:200px;
+	font-size:18px;
+	}
+a:link, a:hover, a:visited, a:active{
+	text-decoration:none;
+	color:#2B7BA2;
+	}
+
+/*****index****************/
+#up{
+	/*height:55px;*/
+	}
+#main{
+	background: url(../image/index.jpg) no-repeat center;
+	height:640px;
+	margin-left:-10px;
+	margin-right:-10px;
+	background-color:#CEE1EA;
+}
+#lg{
+	margin-top:-510px;
+	margin-left:800px;
+	width:265px;
+	background-color:transparent;
+	}
+/**************public********************/
+#page{
+	margin-left:-10px;
+	margin-right:-10px;
+	margin-top:0px;
+	height:672px;
+	background:url(../image/main_bac.jpg);
+	background-attachment:fixed;
+	}
+#cover{
+	margin-left:220px;
+	margin-right:220px;
+	margin-top:-630px;
+	height:630px;
+	background:url(../image/mid.jpg);
+	background-attachment:fixed;
+	opacity:0.15;
+}	
+
+/**************home**********************/
+#left{
+	margin-top:-620px;
+	margin-left:300px;
+	width:230px;
+	height:610px;
+	background:#FFF;
+	border-radius: 10px;
+	opacity:0.96;
+	}
+#right_up{
+	margin-top:-610px;
+	margin-left:540px;
+	margin-right:300px;
+	width:auto;
+	height:200px;
+	background:#FFF;
+	border-radius: 10px;
+	opacity:0.96;
+	}
+#right_down{
+	margin-top:10px;
+	margin-left:540px;
+	margin-right:300px;
+	width:auto;
+	height:400px;
+	background:#FFF;
+	border-radius: 10px;
+	opacity:0.96;
+	}
+
+/**************person*******************/
+#p_up{
+	margin-top:-620px;
+	margin-left:300px;
+	width:750px;
+	height:180px;
+	background:#FFF;
+	border-radius: 10px;
+	opacity:0.96;
+	}
+#p_up p{
+	color:#2B7BA2;}
+#p_down_l{
+	margin-top:10px;
+	margin-left:300px;
+	width:250px;
+	height:420px;
+	background:#FFF;
+	border-radius: 10px;
+	opacity:0.96;
+	}
+#p_down_r{
+	margin-top:-420px;
+	margin-left:560px;
+	width:490px;
+	height:420px;
+	background:#FFF;
+	border-radius: 10px;
+	opacity:0.96;
+	}
+/****************follow**********************/
+#f_left{
+	margin-top:-620px;
+	margin-left:300px;
+	width:230px;
+	height:610px;
+	background:#FFF;
+	border-radius: 10px;
+	opacity:0.96;
+	}
+#f_right{
+	margin-top:-610px;
+	margin-left:540px;
+	margin-right:300px;
+	width:auto;
+	height:610px;
+	background:#FFF;
+	border-radius: 10px;
+	opacity:0.96;
+	}
+

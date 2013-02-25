@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.0//EN"
+         "http://tuckey.org/res/dtds/urlrewrite3.0.dtd">
+
+ <urlrewrite>
+     <rule>
+        <from>/login</from>
+        <to>/index.jsp</to>      
+     </rule>    
+     <!--  <rule>
+        <from>/news</from>
+        <to>/home.jsp</to>      
+     </rule>  -->    
+     <rule>
+        <from>/me</from>
+        <to>/personal.jsp</to>      
+     </rule>  
+     <rule>
+        <from>/followme</from>
+        <to>/home.jsp</to>      
+     </rule> 
+     
+     
+ </urlrewrite>
