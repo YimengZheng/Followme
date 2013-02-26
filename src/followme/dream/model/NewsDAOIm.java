@@ -2,7 +2,6 @@ package followme.dream.model;
 
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import followme.dream.bean.News;
@@ -98,7 +97,7 @@ public class NewsDAOIm implements NewsDAO{
 		long time = System.currentTimeMillis(); 
 		String username=null;
 		String headURL = null;
-		boolean b;
+		boolean b=true;
 		// TODO Auto-generated method stub
 		  try
 		   {
@@ -125,7 +124,7 @@ public class NewsDAOIm implements NewsDAO{
 		   {
 		    e.printStackTrace();
 		   }
-		  return b=true;		
+		  return b;		
 	}
 
 	@Override

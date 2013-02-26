@@ -1,4 +1,4 @@
-package followme.dream.model;
+/*package followme.dream.model;
 import java.sql.*;
 
 public class JDBCCon{
@@ -18,4 +18,4 @@ public class JDBCCon{
 	    }
 	return  conn;
 	}
-}
+}*/

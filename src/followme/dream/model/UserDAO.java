@@ -1,7 +1,6 @@
 package followme.dream.model;
 
 import java.util.*;
-import java.sql.*;
 
 import followme.dream.bean.User;
 

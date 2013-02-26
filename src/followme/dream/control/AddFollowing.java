@@ -12,11 +12,16 @@ import javax.servlet.http.HttpSession;
 
 import followme.dream.bean.User;
 import followme.dream.model.FollowingDAOIm;
-import followme.dream.model.UserDAOIm;
 
 
 @WebServlet("/AddFollowing")
 public class AddFollowing extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub

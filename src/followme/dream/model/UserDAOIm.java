@@ -25,7 +25,7 @@ public class UserDAOIm implements UserDAO{
 
 	@Override
 	public boolean addUser(String username,String email, String password){
-		boolean b;
+		boolean b=true;
 		// TODO Auto-generated method stub
 		  try
 		   {
@@ -41,7 +41,7 @@ public class UserDAOIm implements UserDAO{
 		   {
 		    e.printStackTrace();
 		   }
-		  return b=true;
+		  return b;
 	}
 	
 	@Override
@@ -119,9 +119,6 @@ public class UserDAOIm implements UserDAO{
 
 	@Override
 	public void updateUser(User user) {
-		String sql="UPDATE User SET username=?,gender=?," +
-		  "head=?,EMP_PHONE=? WHERE EMP_ID=?";
-		//not finished
 		
 	}
 

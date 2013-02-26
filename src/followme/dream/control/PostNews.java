@@ -1,11 +1,8 @@
 package followme.dream.control;
 
 import java.io.IOException;
-import java.util.Date;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -18,7 +15,8 @@ import followme.dream.model.*;
 
 @WebServlet("/news")
 public class PostNews extends HttpServlet {
-	
+
+	private static final long serialVersionUID = 1L;
 	private NewsDAOIm newsDao;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -37,12 +35,12 @@ public class PostNews extends HttpServlet {
 		
 		if(newsDao.addNews(content, user.getUserID()))
 		{				
-				RequestDispatcher rd=request.getRequestDispatcher("/news");
+				RequestDispatcher rd=request.getRequestDispatcher("home.jsp");
 			    rd.forward(request, response); 
 		}
 		else
 		{
-			JOptionPane.showMessageDialog(null, "Post failed","user exists", 0);
+			JOptionPane.showMessageDialog(null, "Post failed","Post failed", 0);
 			response.sendRedirect("./");	  
 		}
 	}
